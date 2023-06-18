@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../form/imagenes/portada.png) no-repeat center top;
+    background-size: cover;  
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:black;
+    margin-bottom: 15px;
+}
+.form{
+    width: 360px;
+    background: rgb(209, 156, 40);
+    margin: 40px auto;
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 15px rgb(99, 62, 6);
+}
+
+.controls{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    font: 20px solid black; 
+    border: 2px solid rgb(187, 135, 23);
+    background: rgb(231, 183, 78);
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ p{
+    margin-bottom: 15px;
+ }
+ section p a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.form a:hover{
+  text-decoration: underline;   
+}
+section .submit{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 17px;
+    padding: 5px;
+   font-size: 20px; 
+   background:rgb(145, 105, 19) ;
+   border-radius: 10px;
+   text-align: center;
+}
